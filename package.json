@@ -1,0 +1,10 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Christian Todd <christiantodd27@icloud.com>",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.11.0"
+  }
+}
