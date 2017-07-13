@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Msgs exposing (Msg)
-import Models exposing (Model, initalModel)
+import Models exposing (Model, initialModel)
 import Update exposing (update)
 import View exposing (view)
 import Commands exposing (fetchPlayers)
@@ -15,7 +15,7 @@ init location =
         currentRoute =
             Routing.parseLocation location
     in
-        ( initalModel currentRoute, fetchPlayers )
+        ( initialModel currentRoute, fetchPlayers )
 
 
 subscriptions : Model -> Sub Msg

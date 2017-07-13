@@ -15,8 +15,8 @@ type alias Model =
     }
 
 
-initalModel : Route -> Model
-initalModel route =
+initialModel : Route -> Model
+initialModel route =
     { players = RemoteData.Loading
     , route = route
     }
